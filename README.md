@@ -15,7 +15,7 @@ This project is part of our ongoing development at **Tag-N-Trac**. We are buildi
 
 ---
 
-## 🔮 Future Plans
+## 📌 Future Plans
 
 - Enhanced AI models for parsing complex unstructured files.
 - Real-time anomaly detection for supply chain disruptions.
