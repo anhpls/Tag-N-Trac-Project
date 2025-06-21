@@ -4,27 +4,14 @@ This project is part of our ongoing development at **Tag-N-Trac**. We are buildi
 
 ---
 
-## 🚀 Features
-
-- **IoT Data Ingestion:** Receive real-time data from tracking devices and sensors.
-- **File Parsing & Extraction:** Process incoming files and extract structured data using AI-enhanced parsing.
-- **n8n Automation:** Integrate n8n workflows for data preprocessing, cleaning, and transformation before storage.
-- **Supabase Integration:** Store, query, and manage structured data in a scalable Postgres database.
-- **API-Driven Architecture:** Provide secure RESTful APIs to interface with frontend dashboards.
-- **Smart Scheduling Optimization:** Dynamically prioritize and optimize data processing tasks.
-- **Dashboard & Analytics:** Visualize device activity, supply chain routes, and historical trends.
-- **Cloud-Ready:** Built for deployment on cloud providers for scalability and reliability.
-
----
-
 ## 🛠 Tech Stack
 
-- Next.js (Frontend Dashboard)
-- Supabase (Postgres Database, Auth, Storage)
-- n8n (Workflow Automation)
-- OpenAI (LLM Parsing for document extraction)
-- Node.js / TypeScript (API & Backend Logic)
-- Docker (Optional for containerized deployment)
+- Next.js 
+- Supabase 
+- n8n 
+- OpenAI
+- Node.js / TypeScript 
+- Docker 
 
 ---
 
@@ -39,7 +26,7 @@ This project is part of our ongoing development at **Tag-N-Trac**. We are buildi
 
 ## 🤝 Contributions
 
-Currently under private development by Andy and Akatsuki at Tag-N-Trac. Open-source contributions may be considered in the future.
+Currently under private development by Andy and Anh at Tag-N-Trac.
 
 ---
 
