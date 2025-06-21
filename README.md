@@ -1,40 +1,48 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tag-N-Trac Data Pipeline & Dashboard
 
-## Getting Started
+This project is part of our ongoing development at **Tag-N-Trac**. We are building a full-stack system to collect, parse, store, and analyze real-time tracking data from IoT devices deployed in global supply chains. The system supports asset tracking, supply chain visibility, and real-time monitoring through a combination of cloud services, AI-powered data extraction, and optimized database workflows.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **IoT Data Ingestion:** Receive real-time data from tracking devices and sensors.
+- **File Parsing & Extraction:** Process incoming files and extract structured data using AI-enhanced parsing.
+- **n8n Automation:** Integrate n8n workflows for data preprocessing, cleaning, and transformation before storage.
+- **Supabase Integration:** Store, query, and manage structured data in a scalable Postgres database.
+- **API-Driven Architecture:** Provide secure RESTful APIs to interface with frontend dashboards.
+- **Smart Scheduling Optimization:** Dynamically prioritize and optimize data processing tasks.
+- **Dashboard & Analytics:** Visualize device activity, supply chain routes, and historical trends.
+- **Cloud-Ready:** Built for deployment on cloud providers for scalability and reliability.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Tech Stack
 
-## Learn More
+- Next.js (Frontend Dashboard)
+- Supabase (Postgres Database, Auth, Storage)
+- n8n (Workflow Automation)
+- OpenAI (LLM Parsing for document extraction)
+- Node.js / TypeScript (API & Backend Logic)
+- Docker (Optional for containerized deployment)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔮 Future Plans
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Enhanced AI models for parsing complex unstructured files.
+- Real-time anomaly detection for supply chain disruptions.
+- Predictive analytics based on historical tracking data.
+- User role management and enterprise-grade dashboard features.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Tag-N-Trac-Project
->>>>>>> 777781bb78c67c7728fc3e83343fac27adb0c760
+Currently under private development by Andy and Akatsuki at Tag-N-Trac. Open-source contributions may be considered in the future.
+
+---
+
+## 📄 License
+
+Internal Tag-N-Trac Development Project. Not for public use.
